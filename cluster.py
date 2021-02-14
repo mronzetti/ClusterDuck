@@ -11,7 +11,7 @@ import matplotlib.cm as cm
 
 #Read in smiles file to pandas dataframe
 table = pd.DataFrame()
-table = pd.read_csv('./data/borrelia_008_hitclustering.csv')
+table = pd.read_csv('./data/all_list.csv')
 
 #Some SMILES are pains in the ass, so we drop whatever SMILES give RDKIT kekulization/valence errors, etc.
 for i in table.index:
