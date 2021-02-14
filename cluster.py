@@ -9,6 +9,7 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 from sklearn.cluster import KMeans
 import matplotlib.cm as cm
 
+
 #Read in smiles file to pandas dataframe
 table = pd.DataFrame()
 table = pd.read_csv('./data/all_list.csv')
